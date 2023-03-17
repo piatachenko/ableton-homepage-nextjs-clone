@@ -1,4 +1,5 @@
 import NavbarItem from "@/components/NavbarItem";
+import Link from "next/link";
 import { useState } from "react";
 
 function Navbar() {
@@ -11,7 +12,7 @@ function Navbar() {
           <div className="flex flex-wrap space-x-8 my-auto mx-5 xl:mx-10 z-20">
             <div>
               <div className={menu ? "" : "hidden lg:block"}>
-                <a href="/">
+                <Link href="/">
                   <svg
                     className="w-[3.85rem] h-auto object-contain mr-0.5 xl:mr-1 z-20"
                     xmlns="http://www.w3.org/2000/svg"
@@ -21,10 +22,10 @@ function Navbar() {
                   >
                     <path d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z"></path>
                   </svg>
-                </a>
+                </Link>
               </div>
               <div className={menu ? "hidden" : "lg:hidden"}>
-                <a href="/">
+                <Link href="/">
                   <svg
                     className="w-[3.85rem] h-auto object-contain mr-0.5 xl:mr-1 z-20"
                     fill="white"
@@ -35,7 +36,7 @@ function Navbar() {
                   >
                     <path d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z"></path>
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
             <div className={`lg:hidden ${menu ? "" : "text-white fill-white"}`}>
