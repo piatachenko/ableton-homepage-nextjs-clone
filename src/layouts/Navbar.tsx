@@ -181,8 +181,8 @@ function Navbar() {
               <a href="https://www.ableton.com/en/blog/loop/">
                 <p className="font-medium">Loop</p>
                 <p className="w-52">
-                  Watch Talks, Performances and Features from Ableton's Summit
-                  for Music Makers
+                  Watch Talks, Performances and Features from Ableton&apos;s
+                  Summit for Music Makers
                 </p>
               </a>
               <a href="https://learningmusic.ableton.com/">
@@ -274,7 +274,7 @@ function Navbar() {
                   <div>
                     <p className="font-medium">Loop</p>
                     <p>
-                      Watch Talks, Performances and Features from Ableton's
+                      Watch Talks, Performances and Features from Ableton&apos;s
                       Summit for Music Makers
                     </p>
                   </div>
